@@ -1,0 +1,233 @@
+/* 
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+ */
+
+@font-face {
+    font-family: GraphikMedium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face {
+    font-family: GraphikRegular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+@font-face {
+    font-family: Theinhardt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+@font-face {
+    font-family: neo;
+    src: url(../fonts/Neonderthaw-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: TiemposHeadline;
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    font-family: GraphikRegular;
+    display: flex;
+    margin-left: 7rem;
+    gap: 1em;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+.btnNavigation{
+    font-size: .8rem;
+    font-family: GraphikRegular;
+}
+
+.centerHeadline{
+    margin-right: 3em;
+}
+
+.btnStart{
+    border: 2px solid #848689;
+    padding: .2em 3em;
+    margin-right: 5em;
+    font-size: .9rem;
+    font-family: GraphikMedium;
+}
+
+.screenOne{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.screenOne h1{
+    margin: 1.5em auto;
+    text-align: center;
+    font-family: GraphikRegular;
+    font-size: 2rem;
+    color: #3D3E41;
+}
+
+.screenOneContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:9em;
+    color: #2B2C2E;
+}
+
+.sreenOneFirstContent{
+    width: 44%;
+    font-family: GraphikMedium;
+    margin-left: 7em;
+    word-spacing: 3px;
+    line-height: 24px;
+}
+
+.sreenOneSecondContent{
+    font-size: 3rem;
+    font-family: Theinhardt;
+    width: 12%;
+    margin-left: 2em;
+}
+.sreenOneSecondContent p:nth-of-type(2){  
+    font-size: .9rem;
+    color: #9FA2A7;
+}
+
+
+.screenTwo{
+    height: 100vh;
+    display: flex;
+}
+
+.screenTwo img{
+    width: 50%;
+    margin-left: 5em;
+    padding: 8em 3em;
+}
+
+.screenTwoContainerLeft{
+    margin-top: 8em;
+}
+.screenTwo h2{
+    margin-bottom: 1.5em;
+    font-size: 3rem;
+}
+.screenTwoContent h3{
+    margin-bottom: 1em;
+    font-size:1.5rem;
+    font-family: GraphikMedium;
+}
+
+.screenTwoContent p{
+    width: 72%;
+    margin-bottom: 3em;
+    font-family: Theinhardt;
+    color: #3D3E41;
+}
+
+.screenThree{
+    height: 70vh;
+    background-color: rgba(211, 211, 211, 0.404);
+    display: flex;
+    margin: 5em 8em;
+}
+
+.screenThreeContainer{
+    margin: 5em 5em;
+}
+
+.screenThreeContainer ol{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-family: Theinhardt;
+    list-style-type: decimal;
+}
+
+
+.screenThree h2{
+    margin-bottom: .4em;
+    font-size: 3rem;
+}
+
+.screenThree ol li{
+    list-style-type: decimal;
+    line-height: 1.2em;
+    color: #3D3E41;
+}
+
+.screenThree p{
+    font-family: Theinhardt;
+    color: #3D3E41;
+}
+
+.screenThree img{
+    width: 49%;
+}
+
+
+.screenFour{
+    border-bottom: 2px solid rgba(211, 211, 211, 0.404);
+    /* border: 1px solid; */
+    height: 100vh;
+    margin: 7em 8em 5em 8em;
+    background: url(../img/28.png) no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.screenFour h2{
+    
+    margin: 2em 0 1em 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.screenFour p:nth-of-type(1){
+    width: 46%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1.1rem;
+    font-family: Theinhardt;
+    color: #3D3E41;
+}
+
+.screenFour p:nth-of-type(2){
+    width: 33%;
+    margin-top: 25em;
+    margin-left: 11em;
+    line-height: 35px;
+    font-size: 1.1rem;
+    font-family: GraphikMedium;
+    color: #3D3E41;
+}
+
+.screenFour img{
+    position: absolute;
+    height: 280px;
+    width: 592px;
+    top: 32em;
+    left: 36em;
+    
+}
