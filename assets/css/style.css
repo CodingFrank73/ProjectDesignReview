@@ -27,10 +27,10 @@ h2{
     font-size: 3em;
 }
 
-.fFGraphikMed{font-family: GraphikMedium;}
-.fFGraphikReg{font-family: GraphikRegular;}
+.fFGraphMed{font-family: GraphikMedium;}
+.fFGraphReg{font-family: GraphikRegular;}
 .fFTiemposHeadLine{font-family: TiemposHeadline;}
-.fFTheinhardt{font-family: Theinhardt;}
+.fFThein{font-family: Theinhardt;}
 
 nav{
     height: 5vh;
@@ -67,70 +67,69 @@ a{
     font-size: .9rem;
 }
 
-.screenOne{
+.arti1{
     height: 110vh;
     display: flex;
     flex-direction: column;
 }
 
-.screenOne h1{
+.arti1 h1{
     margin: 1.5em auto;
     text-align: center;
-    font-family: GraphikRegular;
     font-size: 2rem;
     color: #3D3E41;
 }
 
-.screenOneContainer{
+.arti1Conta{
     display: flex;
     justify-content: flex-start;
     margin-top:9em;
     color: #2B2C2E;
 }
 
-.sreenOneFirstContent{
+.arti1Conta1Conte{
     width: 44%;
-    font-family: GraphikMedium;
     margin-left: 7em;
     word-spacing: 3px;
     line-height: 24px;
 }
 
-.sreenOneSecondContent{
+.arti1Conta2Conte{
     font-size: 3rem;
     width: 12%;
     margin-left: 2em;
 }
-.sreenOneSecondContent p:nth-of-type(2){  
+.arti1Conta2Conte p:nth-of-type(2){  
     font-size: .9rem;
     color: #9FA2A7;
 }
 
-.screenTwo{
+.arti2{
     height: 100vh;
     display: flex;
 }
 
-.screenTwo img{
+.arti2 img{
     width: 50%;
     margin-left: 5em;
     padding: 8em 3em;
 }
 
-.screenTwoContainerLeft{
-    margin-top: 8em;
-}
-.screenTwo h2{
+.arti h2{
     margin-bottom: 1.5em;
 }
 
-.screenTwoContent h3{
+.arti2Conta{
+    margin-top: 8em;
+}
+
+.arti2ContaConte h3{
     margin-bottom: 1em;
     font-size:1.5rem;
     font-family: GraphikMedium;
 }
 
-.screenTwoContent p{
+.arti2ContaConte p{
     width: 72%;
     margin-bottom: 3em;
     color: #3D3E41;
